@@ -26,7 +26,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 30px;
-    height: 100vh;
+    height: auto;
   }
 
   .card{
@@ -97,7 +97,7 @@
 
   img{
     float: right;
-    padding-top: 150px;
+    padding-top: 90px;
   }
 
   @media(max-width:1024px){
